@@ -1,0 +1,13 @@
+<div class="row">
+	<% @user.each do |user|%>
+		<div class="span6 offset3">
+			<div class="span1">
+				<%= user.id %>
+			</div>
+			<div class = "span4">
+				<%= user.username %>
+			</div>
+		</div>
+	<% end -%>
+</div>
+
