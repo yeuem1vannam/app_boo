@@ -33,7 +33,7 @@ group :assets do
 end
 
 group :test do
-	gem 'capybara', '1.1.2'
+	gem 'capybara', '1.1.3'
 	gem 'rb-inotify', '0.8.8'
 	gem 'libnotify', '0.5.9'
 	gem 'factory_girl_rails', '1.4.0'
